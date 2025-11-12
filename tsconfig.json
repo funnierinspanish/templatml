@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "esModuleInterop": true,
+    
+    /* Vite-specific settings */
+    "moduleResolution": "bundler", // Recommended for Vite
+    "noEmit": true,               // Vite handles emitting files
+    "isolatedModules": true,      // Required for Vite
+    "resolveJsonModule": true,
+
+    /* Other */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"] // Tell TSC to only check files in the 'src' directory
+}
